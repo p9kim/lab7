@@ -11,3 +11,12 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 }
+
+var p = false;
+
+function check() {
+	if(p)
+		p = false;
+	else 
+		p = true;
+}
